@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* my font family is not changing */
+    font-family: "poppins";
+    font-size: 15px;
+    color: #4b4c61;
+
+}
+
+h1>span {
+    color: black;
+    font-size: 35px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+header>p {
+    margin-top: 20px;
+    width: 450px;
+    text-align: center;
+}
+/* end of header */
+main {
+
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sub-div {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.supervisor,
+.team,
+.karma,
+.cal {
+    width: 250px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 8px 0px #c7c7c7;
+}
+
+
+
+.supervisor {
+    border-top: 6px solid hsl(180, 62%, 55%);
+}   
+
+
+.team {
+    border-top: 6px solid hsl(0, 78%, 62%);
+    
+}
+
+.karma {
+    border-top: 6px solid hsl(34, 97%, 64%);
+    
+}
+
+.cal {
+    border-top: 6px solid hsl(212, 86%, 64%);
+    
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+img {
+    float: right;
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 768px){
+    /* header{
+        width: 350px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+} */
+body {
+    padding: 6px;
+  }
+
+  main {
+    flex-direction: column;
+    gap: 40px;
+  }
+  header>p{
+    width: 80%;
+  }
+}
